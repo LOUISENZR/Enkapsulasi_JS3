@@ -1,8 +1,8 @@
 public class Anggota {
-    private String nama;
-    private int noKtp, limPeminjaman, jmlPinjaman;
+    private String nama, noKtp;
+    private int limPeminjaman, jmlPinjaman;
     
-    public Anggota(int noKtp, String nama, int limPeminjaman){
+    public Anggota(String noKtp, String nama, int limPeminjaman){
         this.nama=nama;
         this.noKtp=noKtp;
         this.limPeminjaman=limPeminjaman;
@@ -13,10 +13,10 @@ public class Anggota {
     public String getNama(){
         return nama;
     }
-    public void setNoKtp(int noKtp){
+    public void setNoKtp(String noKtp){
         this.noKtp=noKtp;
     }
-    public int getNoKtp(){
+    public String getNoKtp(){
         return noKtp;
     }
     public void setLimit(int limPeminjaman){
