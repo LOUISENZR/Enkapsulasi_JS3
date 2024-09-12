@@ -36,13 +36,10 @@ public class Anggota {
         return jmlPinjaman;
     }
     public void angsur(int jmlAngsur){
-        if(jmlAngsur <=jmlPinjaman){
+        if(jmlAngsur >= (0.1*jmlPinjaman)){
             jmlPinjaman -= jmlAngsur;
         }else{
-            System.out.println("PINJAMAN KAMU TELAH LUNAS "+
-            "DAN ANGSURAN MELEBIHI JUMLAH PUNJAMAN");
+            System.out.println("Maaf angsuran harus 10% dari jumlah pinjaman");
         }
-    }
-   
-    
+    }  
 }

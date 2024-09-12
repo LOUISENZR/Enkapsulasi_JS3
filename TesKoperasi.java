@@ -13,8 +13,8 @@ public class TesKoperasi {
         anggota1.setJmlPinjam(4000000);
         System.out.println("Jumlah Pinjaman Saat Ini: "+ anggota1.getJmlPinjam());
 
-        System.out.println("\nMembayar angsuran 1.000.000");
-        anggota1.angsur(1000000);
+        System.out.println("\nMembayar angsuran 50.000");
+        anggota1.angsur(50000);
         System.out.println("Jumlah Pinjaman Saat Ini: "+ anggota1.getJmlPinjam());
 
         System.out.println("\nMembayar angsuran 3.000.000");
